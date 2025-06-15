@@ -1,0 +1,43 @@
+# Compiler
+CC = gcc
+
+# Directories
+SRC_DIR = src
+BIN_DIR = .
+
+# Source files
+MOOD_LOGGER_SRC = $(SRC_DIR)/mood_logger.c
+RHYTHM_ANALYZER_SRC = $(SRC_DIR)/rhythm_analyzer.c
+CLEAN_LOG_SRC = $(SRC_DIR)/clean_log.c
+LATE_NIGHT_SRC = $(SRC_DIR)/late_night_watch.c
+WEEKLY_REPORT_SRC = $(SRC_DIR)/weekly_report.c
+
+# Executables
+MOOD_LOGGER_EXE = $(BIN_DIR)/mood_logger.exe
+RHYTHM_ANALYZER_EXE = $(BIN_DIR)/rhythm_analyzer.exe
+CLEAN_LOG_EXE = $(BIN_DIR)/clean_log.exe
+LATE_NIGHT_EXE = $(BIN_DIR)/late_night_watch.exe
+WEEKLY_REPORT_EXE = $(BIN_DIR)/weekly_report.exe
+
+# Targets
+all: $(MOOD_LOGGER_EXE) $(RHYTHM_ANALYZER_EXE) $(CLEAN_LOG_EXE) $(LATE_NIGHT_EXE) $(WEEKLY_REPORT_EXE)
+
+$(MOOD_LOGGER_EXE): $(MOOD_LOGGER_SRC)
+	$(CC) $< -o $@
+
+$(RHYTHM_ANALYZER_EXE): $(RHYTHM_ANALYZER_SRC)
+	$(CC) $< -o $@
+
+$(CLEAN_LOG_EXE): $(CLEAN_LOG_SRC)
+	$(CC) $< -o $@
+
+$(LATE_NIGHT_EXE): $(LATE_NIGHT_SRC)
+	$(CC) $< -o $@
+
+$(WEEKLY_REPORT_EXE): $(WEEKLY_REPORT_SRC)
+	$(CC) $< -o $@
+
+# Clean compiled binaries
+clean:
+	del /Q *.exe
+
