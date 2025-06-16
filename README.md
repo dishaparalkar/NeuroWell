@@ -64,6 +64,38 @@ If you want to run manually:
 ```powershell
 .\script\hourly_prompt.ps1
 ```
+---
+
+dishaparalkar/
+├── README.md                  # Project documentation
+├── Makefile.txt                # Build instructions
+├── src/                        # Source code files
+│   ├── clean_mood_log.c
+│   ├── idle_tracker.c
+│   ├── late_night_watch.c
+│   ├── main.c
+│   ├── mood_logger.c
+│   ├── rhythm_analyzer.c
+│   ├── utils.c
+│   └── weekly_report.c
+├── include/                    # Header files
+│   ├── idle_tracker.h
+│   ├── late_night_watch.h
+│   ├── mood_logger.h
+│   ├── rhythm_analyzer.h
+│   ├── utils.h
+├── log/                        # Log and report files
+│   ├── mood_log.txt
+│   ├── report.txt
+│   └── weekly_report.txt
+├── script/                     # Scripts
+│   └── hourly_prompt.ps1
+├── clean_log.exe               # Executable to clean mood log
+├── late_night_watch.exe        # Executable to track late-night activity
+├── mood_logger.exe             # Executable to log mood
+├── neuro_well.exe              # Main NeuroWell executable
+├── rhythm_analyzer.exe         # Executable to analyze mood patterns
+├── weekly_report.exe           # Executable for weekly report
 
 ---
 💡 Why NeuroWell?
