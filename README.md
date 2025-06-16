@@ -65,7 +65,7 @@ If you want to run manually:
 .\script\hourly_prompt.ps1
 ```
 ---
-
+```
 dishaparalkar/
 ├── README.md                  # Project documentation
 ├── Makefile.txt                # Build instructions
@@ -96,7 +96,7 @@ dishaparalkar/
 ├── neuro_well.exe              # Main NeuroWell executable
 ├── rhythm_analyzer.exe         # Executable to analyze mood patterns
 ├── weekly_report.exe           # Executable for weekly report
-
+```
 ---
 💡 Why NeuroWell?
 Your mental well-being matters. NeuroWell provides a tech-assisted way to check in with yourself privately and reflect on your inner state.
