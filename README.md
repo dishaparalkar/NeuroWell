@@ -13,9 +13,10 @@
 - Modular design using C & PowerShell
   
 ---
-
 ## 🚀 How to Use
-
+```powershell
+cd D:\NeuroWell
+```
 ### 1. **Log Your Mood**
 
 Run this in PowerShell:
