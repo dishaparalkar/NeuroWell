@@ -32,8 +32,12 @@ It asks for:
 Mood (1–5)
 Energy (1–5)
 Focus (1–5)
-Result is saved in log/mood_log.txt.
+Result is saved in log/mood_log.txt. 
 
+To View:
+```
+notepad mood_log.txt
+```
 ---
 
 ### 2. **Analyze Mood Patterns**
@@ -118,5 +122,5 @@ Windows Task Scheduler
 ---
 
 Author
-Made with love by Disha ❤️
+Made with love by Disha ❤
 
