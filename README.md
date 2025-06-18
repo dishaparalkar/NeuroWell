@@ -20,23 +20,26 @@ cd D:\NeuroWell
 ### 1. **Log Your Mood**
 
 Run this in PowerShell:
-
+in src,
 ```powershell 
 .\mood_logger.exe
 ```
-
+Note: If it shows error then compile it.
+```
+gcc mood_logger.c -o mood_logger.exe
+```
 It asks for:
 Mood (1–5)
 Energy (1–5)
 Focus (1–5)
-Result is saved in mood_log.txt.
+Result is saved in log/mood_log.txt.
 
 ---
 
 ### 2. **Analyze Mood Patterns**
 
 Run in PowerShell :
-
+in src,
 ```powershell
 .\rhythm_analyzer.exe
 ```
@@ -44,10 +47,10 @@ It analyzes the log and generates a report in log/report.txt.
 
 ---
 ### 3. **Clean Old Logs**
-
+in src,
 Run:
 ```powershell
-.\clean_log.exe
+Clear-Content "D:\NeuroWell\log\mood_log.txt"
 ```
 This will clear your mood_log.txt for a fresh start.
 
