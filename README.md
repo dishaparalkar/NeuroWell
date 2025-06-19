@@ -58,8 +58,18 @@ Clear-Content "D:\NeuroWell\log\mood_log.txt"
 This will clear your mood_log.txt for a fresh start.
 
 ---
+### 4. **Weekly Report**
 
-### 4. **Automated Hourly Prompt** 
+Generates a summary of mood, energy, and focus averages from log/mood_log.txt. 
+```
+gcc weekly_report.c -o weekly_report.exe
+.\weekly_report.exe
+```
+Saves the report in log/weekly_report.txt with a timestamp.
+
+---
+
+### 5. **Automated Hourly Prompt** 
 A PowerShell script will auto-run mood_logger.exe hourly.
 Run:
 ```
