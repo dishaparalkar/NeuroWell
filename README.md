@@ -51,7 +51,6 @@ It analyzes the log and generates a report in log/report.txt.
 
 ---
 ### 3. **Clean Old Logs**
-in src,
 Run:
 ```powershell
 Clear-Content "D:\NeuroWell\log\mood_log.txt"
@@ -104,23 +103,32 @@ NeuroWell/
 ```
 ---
 💡 Why NeuroWell?
+
 Your mental well-being matters. NeuroWell provides a tech-assisted way to check in with yourself privately and reflect on your inner state.
 
 ---
 
 📅 Future Plans
+
 Export data to CSV or Excel
+
 Add graphs and visualizations
+
 Text-to-speech prompts
+
 GUI with buttons and dark mode
 
+
 🧑‍💻 Built With
+
 C (Compiled with GCC via MinGW)
+
 PowerShell
+
 Windows Task Scheduler
 
 ---
 
 Author
-Made with love by Disha ❤
+Made by Disha 
 
